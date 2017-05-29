@@ -1,0 +1,96 @@
+/* Empty. Add your own CSS if you like */
+
+.genero {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    width: 45%;
+    background: #3C6DF5;
+    margin-top: 2.5%;
+    height: 200px;
+    float: left;
+}
+
+.img {
+    width: 100%;
+    height: 75%;
+}
+
+h5 {
+    margin-left: 6%;
+    color: white;
+    font-weight: bold;
+    font-family: "titulo";
+    font-size: 95%;
+}
+
+.span {
+    margin-left: 2%;
+}
+
+.pantalla {
+    width: 100%;
+    height: 100%;
+}
+
+.span {
+    background: white;
+    border-radius: 0.8em;
+    -moz-border-radius: 0.8em;
+    -webkit-border-radius: 0.8em;
+    color: #3C6DF5;
+    ;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 1.6em;
+    margin-right: 10px;
+    text-align: center;
+    width: 1.7em;
+}
+
+@font-face {
+    font-family: "titulo";
+    src: url("../fuentes/copperplate_gothic_bold.ttf");
+}
+
+@font-face {
+    font-family: "tituloP";
+    src: url("../fuentes/Magneto Bold.TTF");
+}
+
+
+/*
+.titul{
+    font-family: "tituloP";
+}*/
+
+.artistas {
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    width: 32%;
+    background: #3C6DF5;
+    margin-top: 2.5%;
+    height: 120px;
+    float: left;
+}
+
+h6 {
+    margin-left: 5%;
+    color: white;
+    font-weight: bold;
+    font-family: "titulo";
+    font-size: 65%;
+}
+
+.art {
+    background: white;
+    border-radius: 0.8em;
+    -moz-border-radius: 0.8em;
+    -webkit-border-radius: 0.8em;
+    color: #3C6DF5;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 1.6em;
+    margin-right: 10px;
+    text-align: center;
+    width: 1.7em;
+}
