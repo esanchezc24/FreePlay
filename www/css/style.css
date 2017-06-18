@@ -94,3 +94,77 @@ h6 {
     text-align: center;
     width: 1.7em;
 }
+
+.usuario{
+    margin-left: 9%;
+    margin-right: 0.5%;
+    width: 32%;
+    margin-top: 10%;
+    height: 120px;
+    float: left;
+}
+.imga {
+    width: 100%;
+    height: 110%;
+}
+.ade {
+    background: white;
+    border-radius: 0.8em;
+    -moz-border-radius: 0.8em;
+    -webkit-border-radius: 0.8em;
+    color: #3C6DF5;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 2em;
+    margin-right: 8px;
+    text-align: left;
+    width: 9em;
+}
+.adde {
+    background: white;
+    border-radius: 0.8em;
+    -moz-border-radius: 0.8em;
+    -webkit-border-radius: 0.8em;
+    color:black;
+    ;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 1.6em;
+    margin-left: 20px;
+    text-align: left;
+    width: 15em;
+}
+.logo {
+    margin: 1em 28%;
+    width: 50%;
+    height: 170px;
+    margin-top: 10%;
+}
+.contraseña{
+    text-decoration: none;
+    color: black;
+    display:block;
+    text-align:center; 
+}
+hr{
+    width: 40%;
+    height: 1px;
+    background-color: black;
+}
+.registrate{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    margin-left: 10%;
+    font-weight: bold; 
+}
+.check{
+    border: 0px;
+    margin-left: -20px;
+}
+form label{
+    width: 80%;
+}
+ion-item i{
+    margin-right: 5%;
+}

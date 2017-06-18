@@ -4,7 +4,7 @@
 // 'starter' is the name of this angular module example (also set in a <body> attribute in index.html)
 // the 2nd parameter is an array of 'requires'
 // 'starter.controllers' is found in controllers.js
-angular.module('starter', ['ionic', 'starter.controllers'])
+angular.module('starter', ['ionic', 'musicamodule'])
 
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
@@ -25,58 +25,25 @@ angular.module('starter', ['ionic', 'starter.controllers'])
 .config(function($stateProvider, $urlRouterProvider) {
   $stateProvider
 
+
     .state('app', {
     url: '/app',
     abstract: true,
-    templateUrl: 'templates/menu.html',
-    controller: 'AppCtrl'
+    templateUrl: 'js/app/menu/menu.html' 
   })
 
-  .state('app.genero', {
-    url: '/genero',
+  .state('app.login', {
+    url: '/login',
     views: {
       'menuContent': {
-        templateUrl: 'templates/genero.html'
+        templateUrl: 'js/app/login/login.html'
       }
     }
   })
 
-  .state('app.reproduccion', {
-      url: '/reproduccion',
-      views: {
-        'menuContent': {
-          templateUrl: 'templates/reproduccion.html'
-        }
-      }
-    })
-    .state('app.favoritas', {
-      url: '/favoritas',
-      views: {
-        'menuContent': {
-          templateUrl: 'templates/favoritas.html',
-          controller: 'PlaylistsCtrl'
-        }
-      }
-    })
+   
+  
 
-  .state('app.artistas', {
-    url: '/artistas',
-    views: {
-      'menuContent': {
-        templateUrl: 'templates/artistas.html',
-        controller: 'PlaylistCtrl'
-      }
-    }
-  })
-  .state('app.usuario', {
-      url: '/usuario',
-      views: {
-        'menuContent': {
-          templateUrl: 'templates/usuario.html',
-          controller: 'PlaylistsCtrl'
-        }
-      }
-    })
   // if none of the above states are matched, use this as the fallback
-  $urlRouterProvider.otherwise('/app/genero');
+  $urlRouterProvider.otherwise('/app/login');
 });
